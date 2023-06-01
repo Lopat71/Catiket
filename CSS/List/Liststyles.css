@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.cat-card {
+  background: #f4e8de;
+  padding-top: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.cat-card__block {
+  display: flex;
+  justify-content: space-between;
+
+  /* Color 2 */
+
+  background: #f4e8de;
+  /* Color 1 */
+
+  border: 1px solid #a77c5d;
+  box-shadow: 0px 4px 4px #c4c4c4;
+  border-radius: 12px;
+  margin-bottom: 18px;
+}
+.cat-card__block-border {
+  width: 57px;
+  height: 57px;
+  /* Additional Color */
+
+  background: #c4c4c4;
+  /* Color 1 */
+
+  border: 1px solid #a77c5d;
+  border-radius: 24px;
+}
+
+.cat-card__block-info {
+  display: flex;
+  padding-left: 24px;
+  padding-top: 24px;
+}
+
+.cat-card__block-name {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  /* Color 3 */
+
+  color: #332317;
+}
+.cat-card__block-data {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 28px;
+  padding-left: 24px;
+}
+.cat-card__block-weight {
+  font-family: "Roboto", sans-serif;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #000000;
+}
+.cat-card__block-cat {
+  padding: 11px;
+}
+
+.cat-card__block-pencil {
+  padding-right: 16.25px;
+  padding-bottom: 49px;
+}
+.cat-card__block-create {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.cat-card__block-date {
+  padding-bottom: 9px;
+  padding-right: 10px;
+  font-family: "Roboto", sans-serif;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  color: #000000;
+}
