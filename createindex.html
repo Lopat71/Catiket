@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/create/normal.css" />
+    <link rel="stylesheet" href="CSS/create/header.css" />
+    <link rel="stylesheet" href="CSS/create/createstyles.css" />
+  </head>
+  <body>
+    <header class="create">
+      <div class="create__menu">
+        <a href="index.html"
+          ><img src="img/create/header/Icon.svg" alt="arrow"
+        /></a>
+
+        <div class="create__title">Create</div>
+      </div>
+    </header>
+    <section class="create-cat">
+      <form class="create-cat__form">
+        <input
+          class="create-cat__form-name"
+          placeholder="Name"
+          type="text"
+          name="name"
+          required="required"
+        />
+        <div class="create-cat__form-block">
+          <img
+            class="create-cat__form-arrow"
+            src="img/create/arrow__down.svg"
+            alt="arrow__down"
+          />
+          <select
+            class="create-cat__form-Species"
+            name="Species"
+            required="required"
+          >
+            <option>Species</option>
+          </select>
+        </div>
+        <div class="create-cat__form-block">
+          <img
+            class="create-cat__form-calendar"
+            src="img/create/data.svg"
+            alt="data"
+          />
+          <input
+            class="create-cat__form-date"
+            type="text"
+            name="Birthday"
+            required="required"
+            placeholder="Birthday"
+          />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
